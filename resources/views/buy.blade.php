@@ -58,6 +58,10 @@
 
         },
         options: {
+            title: {
+                display: true,
+                text: 'Chirurgische maskers'
+            },
             scales: {
                 yAxes: [
                     {
