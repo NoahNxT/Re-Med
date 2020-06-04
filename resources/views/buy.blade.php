@@ -15,7 +15,7 @@
 <div class="container-fluid" >
     <div class="row justify-content-center">
 
-            <div class="chart-container" style="position: absolute; height:20vh; width:40vw">
+            <div class="chart-container" style="position: relative; height:30vh; width:60vw">
                 <canvas id="myChart"></canvas>
             </div>
     </div>
@@ -36,6 +36,7 @@
 
             datasets: [
                 {
+                    yAxisID: 'Prijs',
                     label: 'Prijs',
                     data: [5, 10, 15, 4, 9],
                     backgroundColor: 'transparent',
@@ -45,39 +46,55 @@
                 },
 
                 {
-                label: 'Stock',
-                data: [12, 19, 3, 10, 6],
-                backgroundColor: '#4c4cff',
-                borderWidth: 1
+                    yAxisID: 'Stock',
+                    label: 'Stock',
+                    data: [12, 19, 3, 10, 6],
+                    backgroundColor: '#4c4cff',
+                    borderWidth: 1
                 }
 
             ]
 
 
-
-
-
         },
         options: {
             scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true
+                yAxes: [
+                    {
+
+                        id: 'Prijs',
+                        type: 'linear',
+                        position: 'left',
+                        ticks: {
+                            beginAtZero: true,
+                                },
+                        gridLines: {
+                            drawOnChartArea: false,
+                                    },
+                    },
+                    {
+                        id: 'Stock',
+                        type: 'linear',
+                        position: 'right',
+                        ticks: {
+                            beginAtZero: true,
+                                },
+                        gridLines: {
+                            drawOnChartArea: false,
+                        },
+                    }],
+                xAxes:[
+                    {
+                        gridLines: {
+                            drawOnChartArea: false,
+                        },
                     }
-                }]
+                ]
             }
-        },
+        }
 
 
-    }
-
-
-
-
-
-
-
-    );
+    });
 
 
 </script>
