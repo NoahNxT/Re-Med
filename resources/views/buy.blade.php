@@ -8,7 +8,8 @@
 
 
     </head>
-
+    <style>#wrapper {width: 1800px;margin: 0 auto;}
+        #wrapper .container {max-width: 100%; display: block;}</style>
 
 
 <body>
@@ -22,7 +23,28 @@
         </div>
     </div>
 
-    <div class="row mt-5" align="right">
+    <div id="wrapper" align="center">
+    <div class="container" align="center">
+    <div class="row mt-5" >
+        <div class="col">
+            1 of 5
+        </div>
+        <div class="col">
+            2 of 5
+        </div>
+        <div class="col">
+            3 of 5
+        </div>
+        <div class="col">
+            4 of 5
+        </div>
+        <div class="col">
+            5 of 5
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- <div class="row mt-5" align="right">
                 <div class="col-2">
                     <div class="form-group form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -156,7 +178,7 @@
             </div>
         </div>
 
-    </div>
+    </div>-->
 
 </div>
 
