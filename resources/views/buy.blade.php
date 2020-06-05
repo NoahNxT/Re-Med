@@ -8,9 +8,10 @@
 
 
     </head>
+    <style>#wrapper {width: 1800px;margin: 0 auto;}
+        #wrapper .container {max-width: 100%; display: block;}</style>
 
-
-
+    
     <body>
     <div class="container-fluid" >
 
