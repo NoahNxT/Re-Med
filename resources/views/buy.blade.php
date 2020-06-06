@@ -5,6 +5,7 @@
         <title>Buy</title>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
     </head>
@@ -166,7 +167,7 @@
                                 <div class="input-group-text">#</div>
                             </div>
                             <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
-                            <button type="button" class="btn btn-primary ml-2">Buy Now</button>
+                            <button type="button" class="btn btn-primary ml-2" id="buynow">Buy Now</button>
                         </div>
 
                     </div>
@@ -176,23 +177,26 @@
                         <label class="sr-only" for="inlineFormInputGroup">Username</label>
                         <div class="input-group mb-2">
                             <div class="custom-control custom-radio mr-2">
-                                <input type="radio" class="custom-control-input" id="customRadio2" name="rdnAutoBuy">
-                                <label class="custom-control-label" for="customRadio2"><h3>Chirurgische Maskers ></h3></label>
+                                <input onclick="document.getElementById('buynow').disabled = true;" type="radio" class="custom-control-input" id="customRadio2" name="rdnAutoBuy">
+                                <label class="custom-control-label" for="customRadio2"><h3>Chirurgische Maskers <</h3></label>
 
                             </div>
                             <div class="input-group-prepend">
                                 <div class="input-group-text">€</div>
                             </div>
                             <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Price">
-                            <button type="button" class="btn btn-primary ml-2">Auto Buy</button>
+                            <button type="button" class="btn btn-primary ml-2" name="autobuy">Auto Buy</button>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
 
-            </div>
         </div>
     </div>
+    </div>
+
+
+
 
     <script>
 
