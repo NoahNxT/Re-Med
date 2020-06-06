@@ -154,9 +154,44 @@
                             <label class="custom-control-label" for="customRadio">Brancard Beschermings Dekens</label>
                         </div>                    </div>
                 </div>
+
+                <br>
+                <hr class="style1" style="width: 100%;">
+                <br>
+                <div class="row mt-5">
+                    <div class="col">
+                        <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">#</div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                            <button type="button" class="btn btn-primary ml-2">Buy Now</button>
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+
+                        <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                        <div class="input-group mb-2">
+                            <div class="custom-control custom-radio mr-2">
+                                <input type="radio" class="custom-control-input" id="customRadio2" name="rdnAutoBuy">
+                                <label class="custom-control-label" for="customRadio2"><h3>Chirurgische Maskers ></h3></label>
+
+                            </div>
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">€</div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Price">
+                            <button type="button" class="btn btn-primary ml-2">Auto Buy</button>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+
             </div>
         </div>
-        
     </div>
 
     <script>
