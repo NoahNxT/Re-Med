@@ -33,11 +33,14 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
+                    <ul class="navbar-nav mr-auto ml-2">
+                        <li class="nav-item ml-3">
+                            <a class="nav-link" href="/home"><i class="far fa-check-circle"></i>{{ __('Data') }}</a>
+                        </li>
+                        <li class="nav-item ml-3">
                             <a class="nav-link" href="/buy"><i class="far fa-check-circle"></i>{{ __('Buy') }}</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ml-3">
                             <a class="nav-link" href="/sell">{{ __('Sell') }}</a>
                         </li>
                     </ul>
