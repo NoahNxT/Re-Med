@@ -53,25 +53,25 @@
                     </div>
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">Ontsmettings Alcohol +70%</label>
+                            <input type="radio" class="custom-control-input" id="customRadio2" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio2">Ontsmettings Alcohol +70%</label>
                         </div>                    </div>
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">Immonium 20%</label>
+                            <input type="radio" class="custom-control-input" id="customRadio3" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio3">Immonium 20%</label>
                         </div>                    </div>
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">Beademings Mondmasker 100%</label>
+                            <input type="radio" class="custom-control-input" id="customRadio4" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio4">Beademings Mondmasker 100%</label>
                         </div>                    </div>
                 </div>
                 <div class="row mt-5" >
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">FFP2 Masker        </label>
+                            <input type="radio" class="custom-control-input" id="customRadio5" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio5">FFP2 Masker        </label>
                         </div>
                     </div>
                     <div class="col">
@@ -79,31 +79,31 @@
                     </div>
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">Ontsmettings Alcohol +90%</label>
+                            <input type="radio" class="custom-control-input" id="customRadio6" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio6">Ontsmettings Alcohol +90%</label>
                         </div>                    </div>
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">Immonium 50%</label>
+                            <input type="radio" class="custom-control-input" id="customRadio7" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio7">Immonium 50%</label>
                         </div>                    </div>
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">Beademings Neusbril</label>
+                            <input type="radio" class="custom-control-input" id="customRadio8" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio8">Beademings Neusbril</label>
                         </div>                    </div>
                 </div>
                 <div class="row mt-5" >
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">Custom radio</label>
+                            <input type="radio" class="custom-control-input" id="customRadio9" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio9">Custom radio</label>
                         </div>
                     </div>
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio1" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio1">Tyvecken</label>
+                            <input type="radio" class="custom-control-input" id="customRadio10" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio10">Tyvecken</label>
                         </div>
                         <select class="form-control" style="width: 30%;">
                             <option>XS</option>
@@ -115,25 +115,25 @@
                     </div>
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">Ontsmettings Handgel +40%</label>
+                            <input type="radio" class="custom-control-input" id="customRadio11" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio11">Ontsmettings Handgel +40%</label>
                         </div>                    </div>
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">Immonium 75%</label>
+                            <input type="radio" class="custom-control-input" id="customRadio12" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio12">Immonium 75%</label>
                         </div>                    </div>
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">Beschermings Schort</label>
+                            <input type="radio" class="custom-control-input" id="customRadio13" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio13">Beschermings Schort</label>
                         </div>                    </div>
                 </div>
                 <div class="row mt-5" >
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">Spat Maskers</label>
+                            <input type="radio" class="custom-control-input" id="customRadio14" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio14">Spat Maskers</label>
                         </div>
                     </div>
                     <div class="col">
@@ -141,18 +141,18 @@
                     </div>
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">Ontsmettings Handgel +40%</label>
+                            <input type="radio" class="custom-control-input" id="customRadio15" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio15">Ontsmettings Handgel +40%</label>
                         </div>                    </div>
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">Immonium 100%</label>
+                            <input type="radio" class="custom-control-input" id="customRadio16" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio16">Immonium 100%</label>
                         </div>                    </div>
                     <div class="col">
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
-                            <label class="custom-control-label" for="customRadio">Brancard Beschermings Dekens</label>
+                            <input type="radio" class="custom-control-input" id="customRadio17" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio17">Brancard Beschermings Dekens</label>
                         </div>                    </div>
                 </div>
 
