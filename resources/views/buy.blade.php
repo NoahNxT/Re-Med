@@ -44,7 +44,7 @@
                             <input type="radio" class="custom-control-input" id="customRadio1" name="rdnProduct">
                             <label class="custom-control-label" for="customRadio1">Handschoenen Kort</label>
                         </div>
-                        <select class="form-control" style="width: 30%;">
+                        <select class="form-control" style="width: 50%;">
                             <option>XS</option>
                             <option>S</option>
                             <option>M</option>
@@ -106,7 +106,7 @@
                             <input type="radio" class="custom-control-input" id="customRadio10" name="rdnProduct">
                             <label class="custom-control-label" for="customRadio10">Tyvecken</label>
                         </div>
-                        <select class="form-control" style="width: 30%;">
+                        <select class="form-control" style="width: 50%;">
                             <option>XS</option>
                             <option>S</option>
                             <option>M</option>
