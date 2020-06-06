@@ -8,10 +8,10 @@
 
 
     </head>
-    <style>#wrapper {width: 1800px;margin: 0 auto;}
+    <style>#wrapper {width: 60%;margin: 0 auto;}
         #wrapper .container {max-width: 100%; display: block;}</style>
 
-    
+
     <body>
     <div class="container-fluid" >
 
@@ -23,163 +23,140 @@
             </div>
         </div>
 
-        <div id="wrapper" align="center">
-            <div class="container" align="center">
+
+
+        <div id="wrapper" >
+            <div class="container" >
+                <br>
+                <hr class="style1" style="width: 100%;">
+                <br>
                 <div class="row mt-5" >
                     <div class="col">
-                        1 of 5
-                    </div>
-                    <div class="col">
-                        2 of 5
-                    </div>
-                    <div class="col">
-                        3 of 5
-                    </div>
-                    <div class="col">
-                        4 of 5
-                    </div>
-                    <div class="col">
-                        5 of 5
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- <div class="row mt-5" align="right">
-                    <div class="col-2">
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Chirurgische maskers</label>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Chirurgische Maskers</label>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Handschoenen Kort</label>
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio1" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio1">Handschoenen Kort</label>
                         </div>
-                        <select class="form-control" style="width: 15%;">
+                        <select class="form-control" style="width: 30%;">
+                            <option>XS</option>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
                             <option>XL</option>
                         </select>
                     </div>
-                    <div class="col-2">
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Ontsmettings alcohol +70%</label>
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Ontsmettings Alcohol +70%</label>
+                        </div>                    </div>
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Immonium 20%</label>
+                        </div>                    </div>
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Beademings Mondmasker 100%</label>
+                        </div>                    </div>
+                </div>
+                <div class="row mt-5" >
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">FFP2 Masker        </label>
                         </div>
                     </div>
-                    <div class="col-2">
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Immonium +20%</label>
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Ontsmettings Alcohol +90%</label>
+                        </div>                    </div>
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Immonium 50%</label>
+                        </div>                    </div>
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Beademings Neusbril</label>
+                        </div>                    </div>
+                </div>
+                <div class="row mt-5" >
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Custom radio</label>
                         </div>
                     </div>
-                    <div class="col-2">
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Beademings mondmasker 100%</label>
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio1" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio1">Tyvecken</label>
+                        </div>
+                        <select class="form-control" style="width: 30%;">
+                            <option>XS</option>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Ontsmettings Handgel +40%</label>
+                        </div>                    </div>
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Immonium 75%</label>
+                        </div>                    </div>
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Beschermings Schort</label>
+                        </div>                    </div>
+                </div>
+                <div class="row mt-5" >
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Spat Maskers</label>
                         </div>
                     </div>
+                    <div class="col">
 
+                    </div>
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Ontsmettings Handgel +40%</label>
+                        </div>                    </div>
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Immonium 100%</label>
+                        </div>                    </div>
+                    <div class="col">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
+                            <label class="custom-control-label" for="customRadio">Brancard Beschermings Dekens</label>
+                        </div>                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="row mt-5" align="right">
-            <div class="col-2">
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">FFP2 Maskers</label>
-                </div>
-            </div>
-            <div class="col-3">
-
-            </div>
-            <div class="col-2">
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Ontsmettings alcohol +90%</label>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Immonium 50%</label>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Beademings neusbril</label>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row mt-5" align="right">
-            <div class="col-2">
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Handschoenen Lang</label>
-                </div>
-                <select class="form-control" style="width: 15%;">
-                    <option>XL</option>
-                </select>
-            </div>
-            <div class="col-2">
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Ontsmettings handgel +40%</label>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Immonium 75%</label>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Beschermings schort</label>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row mt-5" align="right">
-            <div class="col-2">
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Spat maskers</label>
-                </div>
-            </div>
-            <div class="col-3">
-
-            </div>
-            <div class="col-2">
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Ontsmettings handgel +50%</label>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Immonium 100%</label>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Brancard beschermlakens</label>
-                </div>
-            </div>
-
-        </div>-->
-
+        
     </div>
 
     <script>
