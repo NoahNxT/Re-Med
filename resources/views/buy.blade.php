@@ -9,10 +9,6 @@
 
 
     </head>
-
-    <style>#wrapper {width: 1800px;margin: 0 auto;}
-        #wrapper .container {max-width: 100%; display: block;}</style>
-
     <style>#wrapper {width: 60%;margin: 0 auto;}
         #wrapper .container {max-width: 100%; display: block;}</style>
 
@@ -29,34 +25,6 @@
         </div>
 
 
-    <div id="wrapper" align="center">
-    <div class="container" align="center">
-    <div class="row mt-5" >
-        <div class="col">
-            1 of 5
-        </div>
-        <div class="col">
-            2 of 5
-        </div>
-        <div class="col">
-            3 of 5
-        </div>
-        <div class="col">
-            4 of 5
-        </div>
-        <div class="col">
-            5 of 5
-        </div>
-    </div>
-    </div>
-    </div>
-    <!-- <div class="row mt-5" align="right">
-                <div class="col-2">
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Chirurgische maskers</label>
-=======
-
 
         <div id="wrapper">
             <div class="container">
@@ -69,7 +37,6 @@
                             <input type="radio" class="custom-control-input" id="customRadio" name="rdnProduct">
                             <label class="custom-control-label" for="customRadio">Chirurgische Maskers</label>
                         </div>
->>>>>>> buy
                     </div>
                     <div class="col">
                         <div class="custom-control custom-radio">
@@ -226,41 +193,7 @@
 
         </div>
     </div>
-<<<<<<< HEAD
-
-    <div class="row mt-5" align="right">
-        <div class="col-2">
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Spat maskers</label>
-            </div>
-        </div>
-        <div class="col-3">
-
-        </div>
-        <div class="col-2">
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Ontsmettings handgel +50%</label>
-            </div>
-        </div>
-        <div class="col-2">
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Immonium 100%</label>
-            </div>
-        </div>
-        <div class="col-2">
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Brancard beschermlakens</label>
-            </div>
-        </div>
-
-    </div>-->
-=======
     </div>
->>>>>>> buy
 
 
 
